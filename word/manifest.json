@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "Word Dictionary",
+    "version": "1.0",
+    "description": "A Chrome extension to look up word meanings.",
+    "permissions": [
+      "activeTab",
+      "storage"
+    ],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "128": "logo.png"
+      }
+    },
+    "icons": {
+      "128": "logo.png"
+    },
+    "browser_action": {
+      "default_title": "Word Dictionary",
+      "default_popup": "popup.html"
+    }
+  }
+  
